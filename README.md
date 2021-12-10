@@ -16,9 +16,9 @@ You are not allowed to collaborate during the sprint challenge.
 -   [x] Open the assignment in Canvas and click on the "Set up git" option (Or, depending, if you see something along the lines of 'Load Sprint Challenge Submission in a new window' click that).
 -   [x] Wire your fork to Codegrade using the "Click here for instructions on setting up Git submissions" link, select Github, authorize Github.
 -   [x] Push your first commit: `git commit --allow-empty -m "first commit" && git push`. MAKE SURE TO PUSH TO MAIN, YOU NO LONGER NEED TO CREATE A NEW BRANCH!!
--   [ ] Make commits often! PUSH TO MAIN!!!
+-   [x] Make commits often! PUSH TO MAIN!!!
 -   [ ] You can run tests locally by running npm run test.
--   [ ] Check to see that Codegrade has accepted your git submission.
+-   [x] Check to see that Codegrade has accepted your git submission.
 
 ## Project Instructions
 
@@ -40,11 +40,11 @@ Your finished project must include all of the following requirements:
 -   [ ] Set the list of characters into state.
 -   [ ] Render your characters to the DOM:
 
-    1. Build a React component named 'Character' to render an individual character.
-    1. Map over the list in state, and for each character render a Character to the page.
-    1. Each rendered character must display its name in the DOM (e.g. "Luke Skywalker").
-    1. The character's name can't be hard-coded into the HTML. This data must be obtained from the API.
-    1. The components must be styled with **styled-components**.
+    1. [x] Build a React component named 'Character' to render an individual character.
+    1. [x] Map over the list in state, and for each character render a Character to the page.
+    1. [x] Each rendered character must display its name in the DOM (e.g. "Luke Skywalker").
+    1. [x] The character's name can't be hard-coded into the HTML. This data must be obtained from the API.
+    1. [x] The components must be styled with **styled-components**.
 
     **Notes:**
 
