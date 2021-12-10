@@ -1,4 +1,4 @@
-import { rest } from 'msw';
+// import { rest } from 'msw';
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import axios from 'axios';
@@ -7,8 +7,7 @@ import Character from './components/Character';
 
 const App = () => {
   const [characters, setCharacters] = useState([]);
-
-  // Fetch characters from the API in an effect hook. Remember, anytime you have a side effect in a component, you want to think about which state and/or props it should sync up with, if any.
+  const [selectedChar, setSelectedChar] = useState('Luke Skywalker');
 
   useEffect(() => {
     axios.get('https://swapi.dev/api/people')
@@ -16,14 +15,22 @@ const App = () => {
       .catch(err => console.log(err));
   }, [])
 
-  console.log(characters);
+  const openDetails = name => {
+    setSelectedChar(name);
+  }
+
+  const closeDetails = () => {
+    setSelectedChar(null);
+  }
 
   return (
-    <div className="App">
-      <h1 className="Header">Characters</h1>
-      {characters.map(char => {
-        return < Character character={char} key={char.id} />
-      })}
+    <div className='App'>
+      <div className='Container'>
+        <h1 className='Header'>Characters</h1>
+        {characters.map(char => {
+          return < Character character={char} selected={selectedChar} open={openDetails} close={closeDetails} key={char.name} />
+        })}
+      </div>
     </div>
   );
 }
