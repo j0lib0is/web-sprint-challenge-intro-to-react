@@ -17,7 +17,7 @@ You are not allowed to collaborate during the sprint challenge.
 -   [x] Wire your fork to Codegrade using the "Click here for instructions on setting up Git submissions" link, select Github, authorize Github.
 -   [x] Push your first commit: `git commit --allow-empty -m "first commit" && git push`. MAKE SURE TO PUSH TO MAIN, YOU NO LONGER NEED TO CREATE A NEW BRANCH!!
 -   [x] Make commits often! PUSH TO MAIN!!!
--   [ ] You can run tests locally by running npm run test.
+-   [x] You can run tests locally by running npm run test.
 -   [x] Check to see that Codegrade has accepted your git submission.
 
 ## Project Instructions
@@ -36,7 +36,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 Your finished project must include all of the following requirements:
 
--   [ ] Use the endpoint `[GET] https://swapi.dev/api/people` (mocked in [msw](https://github.com/mswjs/msw)) to obtain characters.
+-   [x] Use the endpoint `[GET] https://swapi.dev/api/people` (mocked in [msw](https://github.com/mswjs/msw)) to obtain characters.
 -   [ ] Set the list of characters into state.
 -   [ ] Render your characters to the DOM:
 
