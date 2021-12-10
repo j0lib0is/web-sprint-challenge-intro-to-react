@@ -7,7 +7,7 @@ import Character from './components/Character';
 
 const App = () => {
   const [characters, setCharacters] = useState([]);
-  const [selectedChar, setSelectedChar] = useState('Luke Skywalker');
+  const [selectedChar, setSelectedChar] = useState('');
 
   useEffect(() => {
     axios.get('https://swapi.dev/api/people')

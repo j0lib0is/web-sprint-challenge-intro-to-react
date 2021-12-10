@@ -14,3 +14,13 @@
 	justify-content: space-between;
 	align-items: center;
 }
+.characterDetail {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.detailsHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

@@ -61,18 +61,18 @@ Your finished project must include all of the following requirements:
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on any the following optional goals:
 
--   [ ] Make the Character component more complex and break it into several subcomponents.
+-   [x] Make the Character component more complex and break it into several subcomponents.
 -   [ ] Use the endpoint `[GET] https://swapi.dev/api/films` (mocked in msw) to obtain movie information to render with the characters.
 -   [ ] Create a helper function in separate module to remove unneeded information from the API data, before putting it in state.
--   [ ] Create transitions or animations with styled-components.
+-   [x] Create transitions or animations with styled-components.
 -   [ ] Use Promise.all to resolve an array of promises.
 
 ## Submission format
 
--   [ ] Submit via Codegrade by committing and pushing any new changes to the main branch.
--   [ ] Check Codegrade for automated feedback.
--   [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
--   [ ] Any changes pushed after the deadline will not receive any feedback.
+-   [x] Submit via Codegrade by committing and pushing any new changes to the main branch.
+-   [x] Check Codegrade for automated feedback.
+-   [x] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+-   [x] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 

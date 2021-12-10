@@ -4,14 +4,16 @@ import styled from 'styled-components';
 import Details from './Details';
 
 const StyledCharacter = styled.div`
-	padding: 0px 16px;
+	padding: 4px 16px;
 	border: 1px solid #f8c706;
 	border-radius: 32px 0px 32px 0px;
 	margin-bottom: 16px;
-	color: #f8c706;
-	text-transform: uppercase;
 	display: flex;
 	flex-direction: column;
+	h3 {
+		color: #f8c706;
+		text-transform: uppercase;
+	}
 	button {
 		border: 1px solid #f8c706;
 		border-radius: 16px 0px 16px 0px;
